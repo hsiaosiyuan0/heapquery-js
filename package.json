@@ -1,6 +1,6 @@
 {
   "name": "heapquery",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Query the objects on the heap of node.js",
   "bin": "index.js",
   "scripts": {
