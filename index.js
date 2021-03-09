@@ -113,7 +113,7 @@ function edge_value({heap, edge, field, resolvers}) {
   throw new Error("unsupported type: " + type)
 }
 
-async function insertEdges(heap, db) {
+function insertEdges(heap, db) {
   const meta = heap['snapshot']['meta'];
   const node_count = heap['snapshot']['node_count'];
 
