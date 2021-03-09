@@ -177,6 +177,7 @@ async function run() {
   const heap = await restoreDump(dump);
   task('Inserting nodes...', () => insertNodes(heap, db));
   task('Inserting edges...', () => insertEdges(heap, db));
+  console.log("🎉")
 }
 
 run();
