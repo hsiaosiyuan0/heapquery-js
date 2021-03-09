@@ -1,0 +1,31 @@
+{
+  "name": "heapquery-js",
+  "version": "0.0.1",
+  "description": "Query the objects on the heap of node.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsiaosiyuan0/heapquery-js.git"
+  },
+  "keywords": [
+    "heapquery",
+    "heapsnapshot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsiaosiyuan0/heapquery-js/issues"
+  },
+  "homepage": "https://github.com/hsiaosiyuan0/heapquery-js#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "chalk": "^4.1.0",
+    "ora": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^5.4.1"
+  }
+}

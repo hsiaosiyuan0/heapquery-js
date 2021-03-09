@@ -1,0 +1,8 @@
+.DS_Store
+/target
+*.db3
+*.db
+*.heapsnapshot
+node_modules
+Heap.*
+.idea
